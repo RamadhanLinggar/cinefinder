@@ -8,7 +8,7 @@ import Favorites from './pages/Favorites'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cinefinder">
       <Navbar />
 
       <Routes>
